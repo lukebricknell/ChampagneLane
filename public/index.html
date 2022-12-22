@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Champagne Lane is tucked away in the mountains of the Champagne Valley situated in the Drakensberg. Peaceful, private and memorable."
+    />
+    <link href="images/logo.png" rel="icon" />
+    <link href="output.css" rel="stylesheet" />
+    <title>Make Family Memories | Champagne Lane</title>
+  </head>
+  <body>
+    <div class="relative inset-0 h-full">
+      <img
+        class="absolute object-cover -z-10 w-full h-full"
+        src="images/hero-img.png"
+        alt="An image of a chalet at the Champagne Lane Resort"
+      />
+      <header>
+        <!-- lg+ -->
+        <div class="relative bg-transparent max-w-7xl mx-auto">
+          <div class="absolute inset-0"></div>
+
+          <div class="absolute inset-0"></div>
+
+          <div class="relative py-2 px-4 mx-auto sm:px-6 lg:px-8">
+            <nav class="flex items-center justify-between h-auto">
+              <div class="flex-shrink- 0">
+                <a
+                  href="index.html"
+                  title="Go to the Champagne Lane Homepage"
+                  class="flex"
+                >
+                  <img
+                    class="w-auto h-12 lg:h-14 xl:h-28"
+                    src="images/logo.png"
+                    alt="Champagne Lane Resort Logo"
+                  />
+                </a>
+              </div>
+
+              <button
+                type="button"
+                id="menu-btn"
+                class="inline-flex p-2 text-adopt transition-all duration-200 rounded-2xl lg:hidden focus:text-adopt-dark hover:text-adopt-dark"
+              >
+                <svg
+                  class="w-7 h-7"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16m-7 6h7"
+                  />
+                </svg>
+              </button>
+
+              <div class="hidden lg:flex lg:items-center lg:space-x-10">
+                <a
+                  href="accomodation.html"
+                  title="View the various Chalet options at Champagne Lane Resort"
+                  class="text-base font-medium text-champagne hover:text-champagne-light focus:text-champagne-light transition-all duration-200"
+                >
+                  Accomodation
+                </a>
+
+                <a
+                  href="Entertainment.html"
+                  title="View the various activities you and your family can enjoy while at Champagne Lane Resort"
+                  class="text-base font-medium text-champagne hover:text-champagne-light focus:text-champagne-light transition-all duration-200"
+                >
+                  Entertainment
+                </a>
+
+                <a
+                  href="time-share.html"
+                  title="View the different time share options available at Champagne Lane Resort"
+                  class="text-base font-medium text-champagne hover:text-champagne-light focus:text-champagne-light transition-all duration-200"
+                >
+                  Time Shares
+                </a>
+
+                <a
+                  href="contact-us.html"
+                  title="View Champagne Lane Resort's contact information and where we are located."
+                  class="text-base font-medium text-champagne hover:text-champagne-light focus:text-champagne-light transition-all duration-200"
+                >
+                  Contact Us
+                </a>
+
+                <a
+                  href="donate.html"
+                  title=""
+                  class="inline-flex items-center justify-center px-8 py-2.5 text-base font-medium bg-champagne text-white transition-all duration-200 border border-transparent rounded-2xl shadow-sm hover:bg-champagne-dark focus:outline-none"
+                  role="button"
+                >
+                  Book Now
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <!-- xs to lg -->
+        <nav
+          id="phone-menu"
+          class="hidden flex-col justify-between w-full min-h-50 px-10 py-10 bg-adopt sm:px-6 md:hidden lg:hidden xl:hidden"
+        >
+          <div class="flex flex-col flex-grow h-full items-center">
+            <nav class="flex flex-col flex-1 space-y-2 items-center">
+              <a
+                href="accomodation.html"
+                title="View the various Chalet options at Champagne Lane Resort"
+                class="flex py-2 font-medium text-champagne transition-all duration-200 hover:text-champagne-light focus:text-champagne-light"
+              >
+                Accomodation
+              </a>
+
+              <a
+                href="entertainment.html"
+                title="View the various activities you and your family can enjoy while at Champagne Lane Resort"
+                class="flex py-2 font-medium text-champagne transition-all duration-200 hover:text-champagne-light focus:text-champagne-light"
+              >
+                Entertainment
+              </a>
+
+              <a
+                href="time-share.html"
+                title="View the different time share options available at Champagne Lane Resort"
+                class="flex py-2 font-medium text-champagne transition-all duration-200 hover:text-champagne-light focus:text-champagne-light"
+              >
+                Time Shares
+              </a>
+
+              <a
+                href="contact-us.html"
+                title="View Champagne Lane Resort's contact information and where we are located."
+                class="flex py-2 font-medium text-champagne transition-all duration-200 hover:text-champagne-light focus:text-champagne-light"
+              >
+                Contact Us
+              </a>
+            </nav>
+
+            <div class="flex flex-col mt-6">
+              <a
+                href="donate.html"
+                title="Book your stay at Champagne Lane Resort!"
+                class="inline-flex items-center justify-center px-8 py-2.5 text-base font-medium bg-champagne text-white transition-all duration-200 border border-transparent rounded-2xl shadow-sm hover:bg-champagne-dark focus:outline-none"
+                role="button"
+              >
+                Book Now
+              </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- HERO SECTION -->
+      <!-- pt-20 pb-64 lg:pt-36 lg:pb-96 in section class -->
+
+      <div>
+        <section class="py-20 lg:pt-48 lg:pb-72 2xl:pt-56 2xl:pb-96">
+          <div
+            class="relative px-6 mx-auto sm:px-8 md:px-10 lg:px-10 max-w-7xl"
+          >
+            <div class="text-center sm:text-right">
+              <h1
+                class="text-5xl font-bold text-white tracking-tight text-adopt md:text-6xl lg:text-7xl sm:tracking-tight"
+              >
+                “Champagne Lane is a small and intimate family holiday resort”
+              </h1>
+              <h4 class="text-base mt-9 text-gray-200">
+                Situated at the base of the Drakensberg Mountains in the heart
+                <br />
+                of the Champagne Valley.
+              </h4>
+
+              <div
+                class="flex flex-col justify-end items-center gap-5 mt-8 md:flex-row lg:flex-row xl:flex-row"
+              >
+                <a
+                  href="adopt-a-beach.html"
+                  title="Book a stay now at Champagne Lane Resort"
+                  class="inline-flex items-center justify-center px-8 py-2.5 text-base font-medium bg-champagne text-white transition-all duration-200 border border-transparent rounded-2xl shadow-sm hover:bg-champagne-dark focus:outline-none"
+                  role="button"
+                >
+                  Book Now
+                </a>
+                <a
+                  href="adopt-a-trolley.html"
+                  title="Learn more about Time Shares at Champagne Lane Resort"
+                  class="inline-flex items-center justify-center px-8 py-2.5 text-base font-medium text-white transition-all duration-200 bg-champagne-light border border-transparent rounded-2xl shadow-sm hover:bg-transparent hover:ring-champagne hover:ring-2 hover:ring-offset-0 focus:bg-transparent focus:ring-champagne focus:ring-2"
+                  role="button"
+                >
+                  Time Share
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- MAP SECTION -->
+
+    <section class="bg-hred pt-10 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="pb-14">
+          <h2
+            class="text-black font-bold text-center text-4xl md:text-5xl lg:text-6xl"
+          >
+            Where are we 📍
+          </h2>
+        </div>
+        <div class="hidden md:flex justify-center items-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13954.95833332282!2d29.454531!3d-29.0246986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd68a9585f8743eb3!2sChampagne%20Lane%20Resort!5e0!3m2!1sen!2sza!4v1671634168701!5m2!1sen!2sza"
+            height="500"
+            width="800"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="flex justify-center items-center md:hidden">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13954.95833332282!2d29.454531!3d-29.0246986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd68a9585f8743eb3!2sChampagne%20Lane%20Resort!5e0!3m2!1sen!2sza!4v1671634168701!5m2!1sen!2sza"
+            height="500"
+            width="800"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION 1 -->
+
+    <section class="py-10 bg-gray-100 sm:py-16 lg:py-24 lg:mt-10">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-5xl">
+        <div class="text-center">
+          <h2
+            class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
+          >
+            A holiday your kids will always remember!
+          </h2>
+          <p class="mt-4 text-base font-medium">
+            Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris
+            blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
+            suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut
+            libero malesuada feugiat.
+          </p>
+
+          <div
+            class="flex flex-col items-center justify-center px-16 mt-8 space-y-4 sm:space-y-0 sm:space-x-4 sm:flex-row lg:mt-12 sm:px-0"
+          >
+            <a
+              href="adopt-a-beach.html"
+              title="Book a stay now at Champagne Lane Resort"
+              class="inline-flex items-center justify-center px-12 py-2.5 text-base font-medium bg-champagne text-white transition-all duration-200 border border-transparent rounded-2xl shadow-sm hover:bg-champagne-dark focus:outline-none"
+              role="button"
+            >
+              Book Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL SECTION -->
+
+    <section
+      class="py-12 bg-champagne sm:py-16 lg:py-14 lg:my-6 xl:py-12 xl:my-10 lg:max-w-8xl mx-auto rounded-3xl"
+    >
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="max-w-2xl mx-auto text-center">
+          <p class="text-base font-semibold text-champagne-ultralight">
+            200+ GOOGLE REVIEWS
+          </p>
+          <h2
+            class="mt-1 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl"
+          >
+            Don't just take our word for it
+          </h2>
+        </div>
+
+        <div
+          class="grid max-w-3xl grid-cols-1 gap-12 mx-auto mt-16 text-center lg:mt-14 xl:mt-16 xl:grid-cols-2 xl:max-w-none sm:text-left"
+        >
+          <div class="flex flex-col sm:flex-row lg:items-center">
+            <img
+              class="object-cover w-48 h-48 mx-auto sm:mx-0 lg:w-60 lg:h-60 shrink-0 rounded-2xl"
+              src="https://landingfoliocom.imgix.net/store/collection/saasui/images/testimonial/4/woman.png"
+              alt=""
+            />
+            <div class="mt-8 sm:mt-0 sm:ml-10">
+              <div class="flex items-center justify-center sm:justify-start">
+                <svg
+                  class="w-5 h-5 text-champagne-ultralight"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  />
+                </svg>
+                <svg
+                  class="w-5 h-5 text-champagne-ultralight"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  />
+                </svg>
+                <svg
+                  class="w-5 h-5 text-champagne-ultralight"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  />
+                </svg>
+                <svg
+                  class="w-5 h-5 text-champagne-ultralight"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  />
+                </svg>
+                <svg
+                  class="w-5 h-5 text-champagne-ultralight"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  />
+                </svg>
+              </div>
+              <blockquote class="mt-8">
+                <p class="text-lg font-medium leading-8 text-gray-800">
+                  "The view, the staff, the location, the rooms, and all the
+                  surrounding activities make this the perfect place to stay!
+                  Went running here as well, the area is just beyond stunning!"
+                </p>
+              </blockquote>
+              <div
+                class="flex flex-col flex-wrap items-center justify-center gap-1 mt-5 sm:flex-row sm:justify-start sm:gap-4"
+              >
+                <p class="text-base font-semibold text-champagne-ultralight">
+                  Nadine Van der Linde
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row lg:items-center">
+            <img
+              class="object-cover w-48 h-48 mx-auto sm:mx-0 lg:w-60 lg:h-60 shrink-0 rounded-2xl"
+              src="https://landingfoliocom.imgix.net/store/collection/saasui/images/testimonial/4/man.png"
+              alt=""
+            />
+            <div class="mt-8 sm:mt-0 sm:ml-10">
+              <div class="flex items-center justify-center sm:justify-start">
+                <svg
+                  class="w-5 h-5 text-champagne-ultralight"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  />
+                </svg>
+                <svg
+                  class="w-5 h-5 text-champagne-ultralight"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  />
+                </svg>
+                <svg
+                  class="w-5 h-5 text-champagne-ultralight"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  />
+                </svg>
+                <svg
+                  class="w-5 h-5 text-champagne-ultralight"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  />
+                </svg>
+              </div>
+              <blockquote class="mt-8">
+                <p class="text-lg font-medium leading-8 text-gray-900">
+                  "If you are looking for peace and quiet this is the place to
+                  stay. Old school Berg resort with the best view of the Berg.
+                  Beautiful gardens and comfortable, well equipped chalets."
+                </p>
+              </blockquote>
+              <div
+                class="flex flex-col flex-wrap items-center justify-center gap-1 mt-5 sm:flex-row sm:justify-start sm:gap-4"
+              >
+                <p class="text-base font-semibold text-champagne-ultralight">
+                  Engela Cronje
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHALET SECTION -->
+
+    <section
+      class="py-12 sm:py-16 lg:py-14 lg:my-6 xl:py-12 xl:my-10 lg:max-w-7xl mx-auto rounded-3xl"
+    >
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <h4 class="text-base uppercase font-semibold text-champagne-light">
+          Accomodation
+        </h4>
+        <h2
+          class="mt-1 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl"
+        >
+          Our Chalets
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
+          <figure class="shadow-lg rounded-2xl overflow-hidden">
+            <img
+              src="images/hero-img.png"
+              class="w-full"
+              alt="Our Standard 6 Sleeper"
+            />
+            <div class="p-4 md:p-6">
+              <h3 class="text-2xl font-bold pb-4">Our standard 6 sleeper</h3>
+              <ul class="list-none">
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                    />
+                  </svg>
+                  <span>2 bedrooms</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                    />
+                  </svg>
+                  <span>2 bathrooms</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                  <span>DSTV</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"
+                    />
+                  </svg>
+                  <span>1GB wifi/day</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>Mountain Views</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
+                    />
+                  </svg>
+                  <span>Fire place & braai area</span>
+                </li>
+              </ul>
+              <div class="more-details">
+                <a
+                  href="adopt-a-beach.html"
+                  title="Book a stay now at Champagne Lane Resort"
+                  class="inline-flex items-center justify-center px-12 py-2.5 text-base font-medium bg-champagne text-white transition-all duration-200 border border-transparent rounded-2xl shadow-sm hover:bg-champagne-dark focus:outline-none"
+                  role="button"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="shadow-lg rounded-2xl overflow-hidden">
+            <img
+              src="images/hero-img.png"
+              class="w-full"
+              alt="Our Standard 8 Sleeper"
+            />
+            <div class="p-4 md:p-6">
+              <h3 class="text-2xl font-bold pb-4">Our standard 6 sleeper</h3>
+              <ul class="list-none">
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                    />
+                  </svg>
+                  <span>2 bedrooms</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                    />
+                  </svg>
+                  <span>2 bathrooms</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                  <span>DSTV</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"
+                    />
+                  </svg>
+                  <span>1GB wifi/day</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>Mountain Views</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
+                    />
+                  </svg>
+                  <span>Fire place & braai area</span>
+                </li>
+              </ul>
+              <div class="more-details">
+                <a
+                  href="adopt-a-beach.html"
+                  title="Book a stay now at Champagne Lane Resort"
+                  class="inline-flex items-center justify-center px-12 py-2.5 text-base font-medium bg-champagne text-white transition-all duration-200 border border-transparent rounded-2xl shadow-sm hover:bg-champagne-dark focus:outline-none"
+                  role="button"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="shadow-lg rounded-2xl overflow-hidden">
+            <img
+              src="images/hero-img.png"
+              class="w-full"
+              alt="Our Standard 6 Sleeper at Champagne Lane"
+            />
+            <div class="p-4 md:p-6">
+              <h3 class="text-2xl font-bold pb-4">Our standard 6 sleeper</h3>
+              <ul class="list-none">
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                    />
+                  </svg>
+                  <span>2 bedrooms</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                    />
+                  </svg>
+                  <span>2 bathrooms</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                  <span>DSTV</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"
+                    />
+                  </svg>
+                  <span>1GB wifi/day</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>Mountain Views</span>
+                </li>
+                <li class="flex align-center mb-5 gap-3 text-base">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
+                    />
+                  </svg>
+                  <span>Fire place & braai area</span>
+                </li>
+              </ul>
+              <div class="more-details">
+                <a
+                  href="adopt-a-beach.html"
+                  title="Book a stay now at Champagne Lane Resort"
+                  class="inline-flex items-center justify-center px-12 py-2.5 text-base font-medium bg-champagne text-white transition-all duration-200 border border-transparent rounded-2xl shadow-sm hover:bg-champagne-dark focus:outline-none"
+                  role="button"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="py-8 border-t-8 border-champagne pb-16">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="flex gap-4 items-center justify-center">
+          <img
+            class="w-auto h-12"
+            src="images/logo.png"
+            alt="Champagne Lane Resort Logo"
+          />
+          <h4 class="text-2xl font-bold">Champagne Lane</h4>
+        </div>
+        <div
+          class="px-4 grid grid-cols-2 md:grid-cols-5 items-center justify-center gap-4 mt-14 max-w-5xl mx-auto"
+        >
+          <a
+            href="accomodation.html"
+            title="View the various Chalet options at Champagne Lane Resort"
+            class="inline-flex text-md font-medium text-beige transition-all duration-200 transform font-pj hover:-translate-y-1"
+          >
+            Accomodation
+          </a>
+
+          <a
+            href="entertainment.html"
+            title="View the various activities you and your family can enjoy while at Champagne Lane Resort"
+            class="inline-flex text-md font-medium text-beige transition-all duration-200 transform font-pj hover:-translate-y-1"
+          >
+            Entertainment
+          </a>
+
+          <a
+            href="time-share.html"
+            title="View the different time share options available at Champagne Lane Resort"
+            class="inline-flex text-md font-medium text-beige transition-all duration-200 transform font-pj hover:-translate-y-1"
+          >
+            Time Shares
+          </a>
+
+          <a
+            href="contact-us.html"
+            title="View Champagne Lane Resort's contact information and where we are located."
+            class="inline-flex text-md font-medium text-beige transition-all duration-200 transform font-pj hover:-translate-y-1"
+          >
+            Contact Us
+          </a>
+
+          <a
+            href="privacy-policy.html"
+            title="View Champagne Lane Resort's Privacy Policy"
+            class="inline-flex text-md font-medium text-beige transition-all duration-200 transform font-pj hover:-translate-y-1"
+          >
+            Privacy Policy
+          </a>
+        </div>
+
+        <ul class="flex items-center justify-center mt-12 space-x-3">
+          <li>
+            <a
+              href="https://www.instagram.com/champagnelane/"
+              target="_blank"
+              title="The Champagne Lane Resort Instagram Page"
+              class="flex items-center justify-center text-gray-100 transition-all duration-200 bg-champagne rounded-full w-10 h-10 hover:bg-champagne-ultralight hover:text-champagne focus:bg-champagne-ultralight focus:text-champagne"
+            >
+              <svg
+                class="w-7 h-7"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"
+                ></path>
+                <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                <path
+                  d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.facebook.com/ChampagneLaneResort"
+              title="The Champagne Lane Resort Facebook Page"
+              target="_blank"
+              class="flex items-center justify-center text-gray-100 transition-all duration-200 bg-champagne rounded-full w-10 h-10 hover:bg-champagne-ultralight hover:text-champagne focus:bg-gray-100 focus:text-champagne"
+            >
+              <svg
+                class="w-7 h-7"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <p class="text-base font-normal text-center text-black mt-7">
+          © Copyright 2022, All Rights Reserved
+        </p>
+        <p class="text-sm font-normal text-center text-black mt-7">
+          Designed by
+          <a
+            href="https://www.lumazalabs.com"
+            target="_blank"
+            class="underline-none text-black hover:text-champagne focus:text-champagne"
+            >Lumaza Labs</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
