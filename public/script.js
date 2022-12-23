@@ -21,3 +21,7 @@ document.addEventListener("keydown", function (e) {
     phoneMenu.classList.add("hidden");
   }
 });
+
+const today = new Date();
+const year = today.getFullYear();
+document.getElementById("year").textContent = year;
