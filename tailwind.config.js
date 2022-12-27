@@ -18,6 +18,9 @@ module.exports = {
         "8xl": "88rem",
         "9xl": "96rem",
       },
+      height: {
+        78: "305px",
+      },
       fontFamily: {
         sans: [
           "Plus Jakarta Sans",
