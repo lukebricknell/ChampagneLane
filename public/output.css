@@ -1423,10 +1423,6 @@ video {
   opacity: 0;
 }
 
-.opacity-50{
-  opacity: 0.5;
-}
-
 .opacity-30{
   opacity: 0.3;
 }
@@ -1608,12 +1604,20 @@ video {
     margin-top: 3rem;
   }
 
+  .sm\:block{
+    display: block;
+  }
+
   .sm\:flex{
     display: flex;
   }
 
   .sm\:inline-flex{
     display: inline-flex;
+  }
+
+  .sm\:hidden{
+    display: none;
   }
 
   .sm\:grid-cols-2{
