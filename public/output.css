@@ -2761,6 +2761,14 @@ video {
   margin-top: 0.625rem;
 }
 
+.mr-0{
+  margin-right: 0px;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
 .mt-9{
   margin-top: 2.25rem;
 }
@@ -3576,6 +3584,10 @@ video {
   transition-duration: 150ms;
 }
 
+.delay-1000{
+  transition-delay: 1000ms;
+}
+
 .duration-200{
   transition-duration: 200ms;
 }
@@ -4119,10 +4131,6 @@ video {
 
   .xl\:mt-16{
     margin-top: 4rem;
-  }
-
-  .xl\:hidden{
-    display: none;
   }
 
   .xl\:h-28{
