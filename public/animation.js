@@ -19,3 +19,9 @@ function addClass(element, className) {
     element.className += " " + className;
   }
 }
+
+document.onreadystatechange = function () {
+  if (document.readyState !== "complete") {
+    document.querySelector("#loader").classList.add("hidden");
+  }
+};
