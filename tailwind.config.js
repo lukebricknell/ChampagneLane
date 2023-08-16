@@ -28,7 +28,16 @@ module.exports = {
           ...defaultTheme.fontFamily.sans,
         ],
       },
+      keyframes: {
+        wave: {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(0)" },
+        },
+      },
+      animation: {
+        wave: "wave 1s linear infinite",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animation-delay")],
 };
