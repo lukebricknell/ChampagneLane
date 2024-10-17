@@ -3129,6 +3129,10 @@ video {
   overflow: hidden;
 }
 
+.scroll-smooth{
+  scroll-behavior: smooth;
+}
+
 .break-words{
   overflow-wrap: break-word;
 }
@@ -3694,10 +3698,6 @@ video {
 .hover\:bg-champagne-light:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(252 141 77 / var(--tw-bg-opacity));
-}
-
-.hover\:tracking-widest:hover{
-  letter-spacing: 0.1em;
 }
 
 .hover\:text-champagne-light:hover{
